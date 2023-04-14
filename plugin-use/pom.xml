@@ -13,7 +13,7 @@
     <plugins>
       <plugin>
         <groupId>org.cstamas.plugin-clash.one</groupId>
-        <artifactId>plugin1</artifactId>
+        <artifactId>the-maven-plugin</artifactId>
         <version>1-SNAPSHOT</version>
         <executions>
           <execution>
@@ -27,7 +27,7 @@
       </plugin>
       <plugin>
         <groupId>org.cstamas.plugin-clash.two</groupId>
-        <artifactId>plugin2</artifactId>
+        <artifactId>the-maven-plugin</artifactId>
         <version>1-SNAPSHOT</version>
         <executions>
           <execution>

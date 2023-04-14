@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>org.cstamas.plugin-clash.one</groupId>
-  <artifactId>plugin1</artifactId>
+  <artifactId>the-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
 
   <dependencies>
@@ -33,9 +33,6 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
         <version>3.8.1</version>
-        <configuration>
-          <goalPrefix>prefix</goalPrefix>
-        </configuration>
       </plugin>
     </plugins>
   </build>
